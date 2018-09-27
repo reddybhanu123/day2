@@ -1,5 +1,12 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-printf("Hello,world");
+    int number;
+    printf("Enter an number: ");  
+    scanf("%d", &number);  
+    printf("You entered: %d", number);
+    return 0;
 }
+
+Enter an number: 33
+You entered: 33 
